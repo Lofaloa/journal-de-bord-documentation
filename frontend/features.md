@@ -18,7 +18,7 @@ In short, the application can be used by a learner driver to register its first 
   * … a traffic condition indicator
   * … a comment, this can be used by the user to note how good he did during his ride!
 
-## Rides management
+## Rides
 
 When a new user registers to the application for the first time a new journal de bord is automatically created. Currently, it is not possible to create more than one journal.
 

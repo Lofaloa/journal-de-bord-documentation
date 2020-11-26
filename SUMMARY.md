@@ -5,7 +5,9 @@
 ## Single Page Application <a id="frontend"></a>
 
 * [Overview](frontend/overview.md)
-* [Mobile User Interface](frontend/design.md)
+* [Installation](frontend/installation.md)
+* [Features](frontend/features.md)
+* [Design](frontend/design.md)
 * [Development](frontend/routing.md)
 
 ## Backend

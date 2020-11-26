@@ -5,7 +5,7 @@ description: >-
   their purpose.
 ---
 
-# Mobile User Interface
+# Design
 
 ## **Introduction**
 

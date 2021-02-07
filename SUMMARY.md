@@ -16,6 +16,7 @@
 * [Data Model](backend/data-model.md)
 * [REST API map](backend/untitled.md)
 * [Configuration](backend/configuration.md)
+* [Installation](backend/installation.md)
 
 ## Security
 

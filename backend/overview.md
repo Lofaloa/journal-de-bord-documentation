@@ -6,3 +6,11 @@ The following tutorial explains how to setup an authorization server using Sprin
 
 Check this out: [https://docs.spring.io/spring-data/rest/docs/current/reference/html/\#reference](https://docs.spring.io/spring-data/rest/docs/current/reference/html/#reference)
 
+
+
+{% embed url="https://www.baeldung.com/postman-keycloak-endpoints" caption="This is a great tutorial that helps you understand how to use Postman with an authorization server." %}
+
+## OpenID Connect
+
+[https://openid.net/specs/openid-connect-discovery-1\_0.html\#ProviderConfig](https://openid.net/specs/openid-connect-discovery-1_0.html#ProviderConfig)
+

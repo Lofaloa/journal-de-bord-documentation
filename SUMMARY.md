@@ -13,10 +13,11 @@
 ## Backend
 
 * [Overview](backend/overview.md)
+* [Installation](backend/installation.md)
+* [Configuration](backend/configuration.md)
+* [Development](backend/development.md)
 * [Data Model](backend/data-model.md)
 * [REST API map](backend/untitled.md)
-* [Configuration](backend/configuration.md)
-* [Installation](backend/installation.md)
 
 ## Security
 
@@ -24,4 +25,5 @@
 * [OAuth 2.0](security/oauth-2.0.md)
 * [Authorization Server \(Keycloak\)](security/authorization-server-keycloak.md)
 * [Client-side flow](security/client-side-flow.md)
+* [OpenID Connect](security/openid-connect.md)
 

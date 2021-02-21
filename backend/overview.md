@@ -12,5 +12,9 @@ Check this out: [https://docs.spring.io/spring-data/rest/docs/current/reference/
 
 ## OpenID Connect
 
-[https://openid.net/specs/openid-connect-discovery-1\_0.html\#ProviderConfig](https://openid.net/specs/openid-connect-discovery-1_0.html#ProviderConfig)
+{% embed url="https://openid.net/specs/openid-connect-discovery-1\_0.html\#ProviderConfig" %}
+
+[**How to design a REST API**](https://restfulapi.net/rest-api-design-tutorial-with-example/)
+
+{% embed url="https://cheatsheetseries.owasp.org/cheatsheets/REST\_Security\_Cheat\_Sheet.html" %}
 

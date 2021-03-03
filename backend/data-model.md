@@ -8,4 +8,6 @@
 
 * Ride: the departure and arrival stops should never be equal for an entity.
 * Ride: traffic condition should be an enumeration \(5 levels\)
+* A location name should be unique in the set of a driver locations
+* The departure of a ride should be before arrival
 

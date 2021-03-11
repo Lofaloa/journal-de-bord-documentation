@@ -1,5 +1,26 @@
 # Configuration
 
+## Resource server configuration
+
+```text
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: <authorization-server-base-url>
+          jwk-set-uri: <authorization-server-base-url>/protocol/openid-connect/certs
+  datasource:
+    url: <database-url>
+    driverClassName: <driver-class>
+    username: admin
+    password: <password>
+  jpa:
+    database-platform: <value>
+application:
+  allowed-origins: <origins,...>
+```
+
 ## Security
 
 The Spring Boot application resources are secured using the Keycloak management system. This section summarizes the steps described in this tutorial: [setup the resource server](https://www.baeldung.com/spring-boot-keycloak).

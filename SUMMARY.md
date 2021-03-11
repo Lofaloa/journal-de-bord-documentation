@@ -9,6 +9,7 @@
 * [Features](frontend/features.md)
 * [Design](frontend/design.md)
 * [Development](frontend/routing.md)
+* [Backend integration](frontend/backend-integration.md)
 
 ## Backend
 

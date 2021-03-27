@@ -19,6 +19,7 @@
 * [Development](backend/development.md)
 * [Data Model](backend/data-model.md)
 * [API reference](backend/untitled/README.md)
+  * [Rides](backend/untitled/rides.md)
   * [Drivers](backend/untitled/drivers.md)
 * [Database management](backend/database-management.md)
 

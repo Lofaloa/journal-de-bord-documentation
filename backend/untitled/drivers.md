@@ -16,6 +16,10 @@ Create a new driver. You need to create a new driver to create a new journal.
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
+{% api-method-parameter name="Content-Type" type="string" required=false %}
+application/json
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="Authentication" type="string" required=true %}
 Authentication token \(J.W.T.\): the authenticated user will be set as the owner of the driver resource.
 {% endapi-method-parameter %}
@@ -49,17 +53,45 @@ The request body was not valid or the authentication header was omitted.
 {% endapi-method-response-example-description %}
 
 ```
-
+{
+    "timestamp": "2021-03-27T08:31:39.150+00:00",
+    "status": 400,
+    "error": "Bad Request",
+    "message": "",
+    "path": "/api/drivers"
+}
 ```
 {% endapi-method-response-example %}
 
 {% api-method-response-example httpCode=409 %}
 {% api-method-response-example-description %}
-Could not create a new driver because the authenticated user has already created one.
+Could not create a new driver because the authenticated user was already created.
 {% endapi-method-response-example-description %}
 
 ```
+{
+    "timestamp": "2021-03-27T08:31:02.417+00:00",
+    "status": 409,
+    "error": "Conflict",
+    "message": "",
+    "path": "/api/drivers"
+}
+```
+{% endapi-method-response-example %}
 
+{% api-method-response-example httpCode=422 %}
+{% api-method-response-example-description %}
+The identifier was specified in the request body but the logged user identifier does not match. This makes sure that the user can only create a driver for itself.
+{% endapi-method-response-example-description %}
+
+```
+{
+    "timestamp": "2021-03-27T08:32:04.883+00:00",
+    "status": 422,
+    "error": "Unprocessable Entity",
+    "message": "",
+    "path": "/api/drivers"
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
